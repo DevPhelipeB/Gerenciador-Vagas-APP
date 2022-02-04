@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="gerenciador-vagas-SA1">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/lib"/>
+        <dependent-module archiveName="jrt-fs.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/JRE_LIB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="src.zip" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/JRE_SRC">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.24.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/user/eclipse-workspace/gerenciador-vagas-SA1/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.24.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="gerenciador-vagas-SA1"/>
+                
+        <property name="java-output-path" value="/gerenciador-vagas-SA1/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
